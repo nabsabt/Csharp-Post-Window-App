@@ -50,7 +50,7 @@ namespace WpfApp1
             {
                 if(LsentName2.Content != "")
                 {
-                    MessageBox.Show("This will overwrite the last post!");
+                    MessageBox.Show("This will overwrite the last post! Do you want to continue?");
 
                 }
                 DateTime currentDate = DateTime.Now;
